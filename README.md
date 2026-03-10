@@ -110,13 +110,6 @@ extern "C" VORTEX_EXPORT const ModuleDescriptor* register_module() {
 }
 ```
 
-## 版本路线建议
-
-- **v0.2.x**：引入撤销/重做、历史栈、参数预设
-- **v0.3.x**：多模块串联流程（pipeline）与批处理
-- **v0.4.x**：GPU 加速（OpenCL/Vulkan/Metal）
-- **v0.5.x**：更完整插件 SDK（参数面板、实时预览、版本兼容）
-
 ## 注意事项
 
 - 当前 UI 使用“路径输入”方式打开/保存，后续可升级为系统文件对话框。
